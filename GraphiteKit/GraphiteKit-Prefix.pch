@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'GraphiteKit' target in the 'GraphiteKit' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import "GrLogging.h"
+#endif
+
+#import "graphite2/Segment.h"
